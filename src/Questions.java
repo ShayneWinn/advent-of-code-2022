@@ -13,5 +13,8 @@ public class Questions {
 
         Day3.p1();
         Day3.p2();
+
+        Day4.p1();
+        Day4.p2();
     }
 }
