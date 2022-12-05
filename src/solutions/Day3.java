@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Day3 {
-	// DAY 3 : 
+	// DAY 3 : find common items between each half of each rucksack
 	public static void p1() {
 		// Rucksacks packed with items (a-z + A-Z)
 		// Equal numbers on both sides
@@ -27,7 +27,7 @@ public class Day3 {
 
 				priorties += findIntersection(strings);
 
-				/* old code
+				/* first solution
 				int[] count = new int[52];
 				for (char item : first.toCharArray()) {
 					item -= item < 'a' ? 38 : 'a' - 1;
