@@ -19,5 +19,8 @@ public class Questions {
 
         Day5.p1();
         Day5.p2();
+
+        Day6.p1();
+        Day6.p2();
     }
 }
