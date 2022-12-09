@@ -68,8 +68,8 @@ public class Day2 {
                 }
     
             } catch (FileNotFoundException e) {
-                System.out.println("An error occurred.");
-                e.printStackTrace();
+                System.out.println("d2p1:  FILE NOT FOUND");
+                return;
             }
     
             System.out.println(String.format("d2p1:  Total Score: %d", score));
@@ -124,8 +124,8 @@ public class Day2 {
                     }
                 }
             } catch (FileNotFoundException e) {
-                System.out.println("An error occurred.");
-                e.printStackTrace();
+                System.out.println("d2p2:  FILE NOT FOUND");
+                return;
             }
     
             System.out.println(String.format("d2p2:  Total Score: %d", score));

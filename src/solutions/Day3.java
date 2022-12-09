@@ -46,8 +46,8 @@ public class Day3 {
 				*/
 			}
 		} catch (FileNotFoundException e) {
-			System.out.println("An error occurred.");
-			e.printStackTrace();
+			System.out.println("d3p1:  FILE NOT FOUND");
+			return;
 		}
 
 		System.out.println(String.format("d3p1:  Total Priority = %d", priorties));
@@ -83,8 +83,8 @@ public class Day3 {
 			}
 
 		} catch (FileNotFoundException e) {
-			System.out.println("An error occurred.");
-			e.printStackTrace();
+			System.out.println("d3p2:  FILE NOT FOUND");
+			return;
 		}
 
 		System.out.println(String.format("d3p2:  Total = %d", priorities));

@@ -25,7 +25,7 @@ public class Day5 {
         String[] lines = Common.FileToLines("inputs/d5.input");
 
         if(lines == null){
-            System.out.println("Day5.p1(): STRING ARRAY IS NULL");
+            System.out.println("d5p1:  STRING ARRAY IS NULL");
             return;
         }
 
@@ -97,7 +97,7 @@ public class Day5 {
         String[] lines = Common.FileToLines("inputs/d5.input");
 
         if(lines == null){
-            System.out.println("Day5.p2(): STRING ARRAY IS NULL");
+            System.out.println("d5p2:  STRING ARRAY IS NULL");
             return;
         }
 

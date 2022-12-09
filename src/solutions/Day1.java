@@ -32,8 +32,8 @@ public class Day1{
                 }
     
             } catch (FileNotFoundException e) {
-                System.out.println("An error occurred.");
-                e.printStackTrace();
+                System.out.println("d1p1:  FILE NOT FOUND");
+                return;
             }
     
             System.out.println("d1p1:  Maximum Calorie Count = " + maxCalorieCount);
@@ -63,8 +63,8 @@ public class Day1{
                 }
     
             } catch (FileNotFoundException e) {
-                System.out.println("An error occurred.");
-                e.printStackTrace();
+                System.out.println("d1p2:  FILE NOT FOUND");
+                return;
             }
     
             calorieCounts.sort(Collections.reverseOrder());

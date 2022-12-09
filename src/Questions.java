@@ -3,7 +3,7 @@ import solutions.*;
 public class Questions {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!\nWelcome to Advent of Code 2022!");
+        System.out.println("Welcome to Advent of Code 2022!");
 
         Day1.p1();
         Day1.p1();

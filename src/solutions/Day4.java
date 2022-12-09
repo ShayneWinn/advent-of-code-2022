@@ -32,8 +32,8 @@ public class Day4 {
             }
 
         } catch (FileNotFoundException e) {
-            System.out.println("Could not find the file");
-            e.printStackTrace();
+            System.out.println("d4p1:  FILE NOT FOUND");
+            return;
         }
 
         System.out.println(String.format("d4p1:  Total total overlaps = %d", total));
@@ -66,8 +66,8 @@ public class Day4 {
             }
 
         } catch (FileNotFoundException e) {
-            System.out.println("Could not find the file");
-            e.printStackTrace();
+            System.out.println("d4p2:  FILE NOT FOUND");
+            return;
         }
 
         System.out.println(String.format("d4p1:  Total partial overlaps = %d", total));
