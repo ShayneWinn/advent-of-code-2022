@@ -24,5 +24,6 @@ public class Questions {
         Day6.p2();
 
         Day7.run();
+        Day8.run();
     }
 }
