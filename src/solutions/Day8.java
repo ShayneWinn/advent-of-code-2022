@@ -9,7 +9,7 @@ public class Day8 {
         // input
         String[] inputLines = Common.FileToLines("inputs/d8.input");
         if(inputLines == null){
-            System.out.println("d8p1:  STRING ARRAY IS NULL");
+            System.out.println("d8:    INPUT FILE NOT FOUND");
             return;
         }
         char[][] treeGrid = new char[inputLines.length][inputLines[0].length()];

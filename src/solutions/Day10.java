@@ -4,7 +4,8 @@ public class Day10 {
     public static void run(){
         String[] lines = Common.FileToLines("inputs/d10.input");
         if(lines == null){
-            System.out.println("d10p1: STRING ARRAY IS NULL");
+            System.out.println("d10:   INPUT FILE NOT FOUND");
+            return;
         }
 
         int xReg = 1;

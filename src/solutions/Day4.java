@@ -32,7 +32,7 @@ public class Day4 {
             }
 
         } catch (FileNotFoundException e) {
-            System.out.println("d4p1:  FILE NOT FOUND");
+            System.out.println("d4p1:  INPUT FILE NOT FOUND");
             return;
         }
 
@@ -66,7 +66,7 @@ public class Day4 {
             }
 
         } catch (FileNotFoundException e) {
-            System.out.println("d4p2:  FILE NOT FOUND");
+            System.out.println("d4p2:  INPUT FILE NOT FOUND");
             return;
         }
 

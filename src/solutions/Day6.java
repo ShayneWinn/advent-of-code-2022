@@ -5,7 +5,8 @@ public class Day6 {
     public static void p1(){
         String[] lines = Common.FileToLines("inputs/d6.input");
         if(lines == null){
-            System.out.println("d6p1:  STRING ARRAY IS NULL");
+            System.out.println("d6p1:  INPUT FILE NOT FOUND");
+            return;
         }
         String input = lines[0];
         int answer = FindIndexOfUniqueGroup(input, 4);
@@ -16,7 +17,8 @@ public class Day6 {
     public static void p2(){
         String[] lines = Common.FileToLines("inputs/d6.input");
         if(lines == null){
-            System.out.println("d6p2:  STRING ARRAY IS NULL");
+            System.out.println("d6p2:  INPUT FILE NOT FOUND");
+            return;
         }
         String input = lines[0];
         int answer = FindIndexOfUniqueGroup(input, 14);

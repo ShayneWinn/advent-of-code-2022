@@ -52,6 +52,10 @@ public class Day7 {
         // GENERATE FILE STRUCTURE
 
         String[] lines = Common.FileToLines("inputs/d7.input");
+        if(lines == null) {
+            System.out.println("d7:    INPUT FILE NOT FOUND");
+            return;
+        }
         int i = 0;
         while (i < lines.length) {
             String[] tokens = lines[i].split(" ");

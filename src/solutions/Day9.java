@@ -83,7 +83,7 @@ public class Day9 {
         // \=========/
         String[] inputLines = Common.FileToLines("inputs/d9.input");
         if(inputLines == null) {
-            System.out.println("d9p1:  STRING ARRAY IS NULL");
+            System.out.println("d9:    INPUT FILE NOT FOUND");
             return;
         }
 

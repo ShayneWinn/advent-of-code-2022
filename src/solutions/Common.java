@@ -21,7 +21,6 @@ public class Common {
             return array.toArray(tmp);
 
         } catch (FileNotFoundException e) {
-            System.out.println("Common.FileToLines(): FILE NOT FOUND");
             return null;
         }
     }
